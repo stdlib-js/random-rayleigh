@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@esm/index.mjs';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@v0.1.1-esm/index.mjs';
 ```
 
 #### rayleigh( shape, sigma\[, options] )
@@ -343,7 +343,7 @@ var sz = random.byteLength;
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@esm/index.mjs';
+import rayleigh from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-rayleigh@v0.1.1-esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = rayleigh.factory({
